@@ -2,6 +2,11 @@
 
 Welcome to **MovieFlix**! This is a dynamic, Single Page Application (SPA) built with React, TypeScript, and Vite. It serves as an engaging platform for discovering trending movies, searching for your favorites, and building a personalized watchlist. 🚀
 
+## 🌐 Live Demo
+
+You can view and interact with the live version of the app here:
+👉 **[Insert Live Link Here]**
+
 ## 🌟 What This App Does
 
 MovieFlix is designed to be your go-to companion for movie nights. With a sleek, dark-mode compatible UI and smooth GSAP animations, the app allows you to:
