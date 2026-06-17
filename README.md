@@ -29,15 +29,3 @@ Managing user sessions and cross-component state is handled gracefully via the R
 - **Global Provider:** Once authenticated, the user's account details and remote Watchlist are fetched and stored globally, making them accessible to any component (like the Navbar or Movie Details page) without prop drilling.
 - **Optimistic UI Updates:** When you click "+ Add to Watchlist", the app instantly updates the local state so the UI reacts blazingly fast. Simultaneously, it fires a background `POST` request to synchronize the change with the remote TMDB database. ⚡
 
-## 💻 Running the App Locally
-
-Ready to run this locally? Let's get your Vite and Tailwind environment spun up! 🛠️
-
-### Prerequisites
-Make sure you have [Node.js](https://nodejs.org/) installed on your machine.
-
-### Step-by-Step Instructions
-
-1. **Navigate to the project directory:**
-   ```bash
-   cd movieApp
